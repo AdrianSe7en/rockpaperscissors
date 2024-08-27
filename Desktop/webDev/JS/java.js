@@ -1,13 +1,14 @@
 function computerChoice(max) {
+    let computerChoice = 0;
     return Math.floor(Math.random() * max);
   }
   
 
   let playerChoice = prompt("Rock, Paper or Scissors?");
 
-  if (playerChoice = "Rock"){
+  if (playerChoice === "Rock"){
     console.log("You have chosen Rock.")
-  }else if (playerChoice = "Paper") {
+  }else if (playerChoice === "Paper") {
     console.log("You have chosen Paper")
   } else {
     console.log("You have chosen Scissors")
@@ -20,5 +21,3 @@ function computerChoice(max) {
   } else {
     console.log("Computer chooses Scissors")
   }
-
-  
